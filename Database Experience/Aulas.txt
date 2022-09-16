@@ -1,0 +1,17 @@
+Banco de Dados: coleção de palavras que dentro elas há um relacionamento entre esses dados.
+
+Dados: são os fatos que transforma em informação.
+
+Tipo de Dados: numéricos e textual.
+
+Data-base: conjunto de dados armazenados.
+
+Sistema de Gerenciamento de Banco de Dados (SGDB): gerencia os dados.
+
+Definição: tipo de dados, estrutura (mini mundo).
+Construção: inserção de dados.
+Manipulação: recuperação e relatório (querrys, requisições no banco de dados).
+Compartilhamento: Simultaneidade, acesso.
+
+Metadados: informações que fornecem uma descrição concisa dos dados contidos no BD.
+
