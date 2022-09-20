@@ -15,3 +15,8 @@ Compartilhamento: Simultaneidade, acesso.
 
 Metadados: informações que fornecem uma descrição concisa dos dados contidos no BD.
 
+Atores
+    Designer: identificar os dados e os requisitos, representação e estrutura, fase preliminar.
+    Administrador: gerencia recursos (base de dados, sgdb, softwares adicionais), orquestração, autorizações de acessos.
+    Usuários finais: acesso (querying, updates e reports), categorizados.
+
