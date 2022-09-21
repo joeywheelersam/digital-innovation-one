@@ -1,0 +1,16 @@
+# Exemplo 1
+
+CREATE TABLE periodicos (
+   id integer,
+   nome varchar (120),
+   issn integer,
+   PRIMARY KEY (id),
+   FOREIGN KEY (id) REFERENCES editora (id)
+);
+
+CREATE TABLE editora (
+   id integer,
+   nome_editora varchar (120),
+   Pais integer,
+   PRIMARY KEY (id)
+);

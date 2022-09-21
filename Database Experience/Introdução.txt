@@ -20,3 +20,7 @@ Atores
     Administrador: gerencia recursos (base de dados, sgdb, softwares adicionais), orquestração, autorizações de acessos.
     Usuários finais: acesso (querying, updates e reports), categorizados.
 
+Modelagem: possui foco na descrição e relacionamento dos elementos que compõem a representação do contexto (mini-mundo).
+Alto nível: requisitos para criação do modelo, entidade-relacionamento e UML (Unified Modeling Language).
+Esquema: definindo estrutura relacional.
+SGBD: implementando, criando o DB.
