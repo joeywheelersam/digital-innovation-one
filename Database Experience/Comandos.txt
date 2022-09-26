@@ -1,0 +1,11 @@
+mysql -u root -p                            * Acessa o MySQL no Prompt de Comandos
+
+SHOW DATABASES;                             * Mostra os Database
+CREATE DATABASE [nome];                     * Cria um Database
+DROP DATABASE [nome];                       * Deleta um Database
+USE [nome];                                 * Entra em um Database
+
+SHOW TABLES;                                * Mostra as tabelas
+CREATE TABLE [nome]                         * Cria uma tabela
+ALTER TABLE [tabela] [comandos];            * Altera uma tabela
+SELECT * FROM [tabela];                     * Visualiza as linhas da tabela

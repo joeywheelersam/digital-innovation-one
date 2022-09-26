@@ -1,16 +1,25 @@
-# Exemplo 1
+# Exemplo 001
+
+CREATE DATABASE exemplo001;
+USE exemplo001;
 
 CREATE TABLE periodicos (
-   id integer,
-   nome varchar (120),
-   issn integer,
-   PRIMARY KEY (id),
-   FOREIGN KEY (id) REFERENCES editora (id)
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   nome_periodicos VARCHAR(20),
+   issn INT,
+   id_editora INT
 );
 
 CREATE TABLE editora (
-   id integer,
-   nome_editora varchar (120),
-   Pais integer,
-   PRIMARY KEY (id)
+   id INTEGER AUTO_INCREMENT PRIMARY KEY,
+   nome_editora VARCHAR(120) UNIQUE,
+   pais VARCHAR(5)
 );
+
+ALTER TABLE periodicos ADD CONSTRAINT fk_editora_periodicos FOREIGN KEY (id_editora) REFERENCES editora(id);
+
+INSERT INTO editora (nome_editora, pais) VALUES ('Editora 001','EUA'),('Editora 002','BRA');
+SELECT * FROM editora;
+
+INSERT INTO periodicos (nome_periodicos, issn, id_editora) VALUES ('Periodicos 001','001','1');
+SELECT * FROM periodicos;
