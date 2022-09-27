@@ -24,3 +24,20 @@ Modelagem: possui foco na descrição e relacionamento dos elementos que compõe
 Alto nível: requisitos para criação do modelo, entidade-relacionamento e UML (Unified Modeling Language).
 Esquema: definindo estrutura relacional.
 SGBD: implementando, criando o DB.
+
+Modelo de Dados Conceitual
+    Entidade:
+    Atributos:
+    Relacionamento: 
+
+Esquema: descrição do seu banco de dados, que representamos através de um diagrama.
+
+Linguagens para SGBD
+    DDL - Data Definition Language (Linguagem de Definição de Dados): são os comandos que interagem com os objetos do banco (CREATE, ALTER e DROP).
+    DML - Data Manipulation Language (Linguagem de Manipulação de Dados): são os comandos que interagem com os dados dentro das tabelas. (INSERT, DELETE e UPDATE).
+    DQL - Data Query Language (Linguagem de Consulta de dados): são os comandos de consulta (SELECT, em alguns livros o SELECT fica na DML).
+    DTL - Data Transaction Language (Linguagem de Transação de Dados): são os comandos para controle de transação (BEGIN TRANSACTION, COMMIT E ROLLBACK).
+    DCL - Data Control Language (Linguagem de Controle de Dados): são os comandos para controlar a parte de segurança do banco de dados (GRANT, REVOKE E DENY).
+    SDL - Storage Definition Language
+    VDL - Vision Definition Language
+
