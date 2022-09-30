@@ -41,3 +41,5 @@ Linguagens para SGBD
     SDL - Storage Definition Language
     VDL - Vision Definition Language
 
+Predicado: é a parte da oração que contém o verbo e que traz informações sobre o sujeito.
+
