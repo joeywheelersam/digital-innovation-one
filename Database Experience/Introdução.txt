@@ -43,3 +43,12 @@ Linguagens para SGBD
 
 Predicado: é a parte da oração que contém o verbo e que traz informações sobre o sujeito.
 
+Projeto lógico
+    Criação do esquema lógico
+    Instalação e configuração do SGBD
+    Criação do esquema DB
+
+Coleta e Análise
+    Esquema conceitual (design conceitual)
+        Esquema lógico (mapeamento)
+            Esquema lógico (implementação)
