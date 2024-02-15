@@ -36,3 +36,7 @@ Spring Framework
         Site: https://start.spring.io/
 
 Arquitetura de três camadas tem por objetivo promover a separação das funcionalidades usando camadas para a separação lógica de apresentação, lógica de negócio e lógica de acesso a dados.
+
+Arquivo de Configuração
+    application.properties
+    application.yml (visualmente melhor)
