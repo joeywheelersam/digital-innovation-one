@@ -4,27 +4,30 @@ Site
     README.md: https://readme.so/pt/editor
 
 Configurações iniciais
-    git config user.name                                        * Visualiza usuário configurado
-    git config --global user.name "[usuário]"                   * Configura usuário
-    git config user.email                                       * Visualiza email configurado
-    git config --global user.email "[email]"                    * Configura email
-    git config init.defaultBranch                               * Visualiza a Branch configurado
-    git config --global init.defaultBranch [Branch]             * Configura Branch, por padrão botamos main
-    git config --global --list                                  * Visualiza todas as configurações globais
-    git config --global credential.helper store                 * Salva senha do token
+    git config user.name                                * Visualiza usuário configurado
+    git config --global user.name "[usuário]"           * Configura usuário
+    git config user.email                               * Visualiza email configurado
+    git config --global user.email "[email]"            * Configura email
+    git config init.defaultBranch                       * Visualiza a Branch configurado
+    git config --global init.defaultBranch [Branch]     * Configura Branch, por padrão botamos main
+    git config --global --list                          * Visualiza todas as configurações globais
+    git config --global credential.helper store         * Salva senha do token
 
 Comandos diversos
-    git status                                                  * Mostra as condições do diretório
-    git log                                                     * Mostra todos os commits
+    git status                                          * Mostra as condições do diretório
+    git log                                             * Mostra todos os commits
+    .gitkeep                                            * Arquivo criado numa pasta vazia
+    git restore [arquivo_modificado]                    * Restaurar um arquivo modificado
 
 Criar repositório
-    git clone [url_repositório] [nome_pasta]                    * Clona repositório, nome da pasta é opcional
-    git init                                                    * Inicializa o repositório
-    git remote -v                                               * Verifica onde está o repositório remoto
-    git remote add origin [url_repositório]                     * Adiciona a url do repositório remoto
+    git clone [url_repositório] [nome_pasta]            * Clona repositório, nome da pasta é opcional
+    git init                                            * Inicializa o repositório
+    rm -rf .git                                         * Desfaz a inicialização do repositório
+    git remote -v                                       * Verifica onde está o repositório remoto
+    git remote add origin [url_repositório]             * Adiciona a url do repositório remoto
 
 Salvar alterações no repositório
-    git add . git add [nome_arquivo]                            * Adiciona todos os arquivos para enviar
-    git add [nome_arquivo]                                      * Adiciona um arquivo para enviar
-    git commit -m "[texto]"                                     * Cria um commit
+    git add . git add [nome_arquivo]                    * Adiciona todos os arquivos para enviar
+    git add [nome_arquivo]                              * Adiciona um arquivo para enviar
+    git commit -m "[texto]"                             * Cria um commit
     
